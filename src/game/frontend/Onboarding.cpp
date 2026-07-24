@@ -6,7 +6,7 @@
 #include "game/pointers/Pointers.hpp"
 #include <shellapi.h>
 
-namespace NxMenu
+namespace YimMenu
 {
 	static BoolCommand _OnboardingComplete{"$onboardingcomplete", "", ""};
 
