@@ -1,29 +1,30 @@
-# YimMenuV2
+# NxMenu
 
-Experimental menu for GTA 5: Enhanced
+A personal fork of YimMenu for GTA 5: Enhanced.
+
+> [!WARNING]
+> ## ⚠️ BIG DISCLAIMER ⚠️
+> **NxMenu is primarily designed and intended to be used WITHOUT FSL (FSL-free) for true character and account progression!**
+> Because FSL is not used to reroute account save data to disk, all actions and modifications happen directly on your live, legitimate character and GTA Online account. This carries a high risk of detection and permanent bans. Use at your own risk!
 
 ## How to use
 
-1. Download the latest version of FSL from [here](https://www.unknowncheats.me/forum/grand-theft-auto-v/616977-fsl-local-gtao-saves.html) and place WINMM.dll in your GTA V directory. Using FSL is now optional but highly recommended for account safety
-2. Download YimMenuV2 from [GitHub Releases](https://github.com/YimMenu/YimMenuV2/releases/tag/nightly)
-3. Download an injector, such as [Xenos](https://www.unknowncheats.me/forum/general-programming-and-reversing/124013-xenos-injector-v2-3-2-a.html)
-4. Open Rockstar Launcher, select Grand Theft Auto V Enhanced, go to settings, and disable BattlEye. If you are using Steam or Epic Games, you may have to pass the -nobattleye command line parameter as well
-5. Launch GTA V, then use your injector to inject YimMenuV2.dll at the main menu
+1. **Disable BattlEye:** Open Rockstar Launcher, select Grand Theft Auto V Enhanced, go to settings, and disable BattlEye. If you are using Steam or Epic Games, pass the `-nobattleye` command line parameter.
+2. **Launch GTA V:** Start the game and enter **Story Mode**.
+3. **Inject:** Open your injector (such as [Xenos](https://www.unknowncheats.me/forum/general-programming-and-reversing/124013-xenos-injector-v2-3-2-a.html)) and inject `NxMenu.dll` while in Story Mode.
+4. **Go Online:** 
+   - Open the menu (using the hotkeys below).
+   - Go to **Network**.
+   - Select your desired **Lobby Type**.
+   - Press **Join**.
+   - *Note:* If an error occurs, simply press **Join** again.
 
 ## How to open the menu?
 
-Press the `INSERT` key or `Ctrl+\` to open the menu
- 
+Press the `INSERT` key or `Ctrl+\` to open the menu.
+
 ## Common issues
 
 ### I keep getting desynced from public sessions every five minutes
 
-We currently do not have a BattlEye bypass, and legitimate hosts will eventually remove you due to a heartbeat failure. There is currently no way to stop this other than using an actual (private) bypass
-
-### I removed FSL and all my progress disappeared!
-
-FSL reroutes account save data to disk, so any progress made with FSL will only show up if you have FSL enabled. If you don't want this, you can also use YimMenuV2 without FSL, but this is not recommended
-
-### I removed FSL and the game doesn't start up anymore
-
-This is a known issue; delete "Documents/GTAV Enhanced/Profiles" to fix
+We currently do not have a BattlEye bypass, and legitimate hosts will eventually remove you due to a heartbeat failure. There is currently no way to stop this other than using an actual (private) bypass or hosting your own/joining specific lobby types.

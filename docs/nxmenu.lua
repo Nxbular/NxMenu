@@ -1,5 +1,5 @@
 ---@meta
---- YimMenuV2 Lua API definitions for the Lua Language Server (sumneko / LuaLS).
+--- NxMenu Lua API definitions for the Lua Language Server (sumneko / LuaLS).
 ---
 --- This file is annotations only — it is never executed. Point your language
 --- server at it for autocompletion and type checking, e.g. in `.luarc.json`:
